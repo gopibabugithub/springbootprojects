@@ -25,4 +25,9 @@ public class HelloGopiController {
     public  String employee() {
         return "bank holder name suresh";
     }
+    @GetMapping
+    public String vijay() {
+        return "getName";
+    }
+
 }
