@@ -12,7 +12,7 @@ public class HelloPavanController {
     }
 
     @GetMapping("/hi")
-    public String sayAsk)() {
+    public String sayAsk() {
     return "are you looking for job change  yes i am looking for job change";
     }
 }
