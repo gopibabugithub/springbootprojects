@@ -15,4 +15,9 @@ public class HelloGopiController {
     public String hii() {
         return "This second api method";
     }
+
+    @GetMapping("/gopi")
+    public String gopi() {
+        return "how are you";
+    }
 }
