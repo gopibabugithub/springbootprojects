@@ -10,4 +10,9 @@ public class HelloGopiController {
     public String sayHello() {
         return "Good afternoon guys";
     }
+
+    @GetMapping("/hello")
+    public String hii() {
+        return "This second api method";
+    }
 }
