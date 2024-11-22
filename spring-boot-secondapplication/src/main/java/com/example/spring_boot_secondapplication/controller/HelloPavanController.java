@@ -11,7 +11,7 @@ public class HelloPavanController {
         return "Hello Git Hub .....";
     }
 
-    @GetMapping
+    @GetMapping("/hi")
     public String sayAsk)() {
     return "are you looking for job change  yes i am looking for job change";
     }
