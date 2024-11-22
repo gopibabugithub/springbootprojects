@@ -10,4 +10,9 @@ public class HelloPavanController {
     public String getHello(){
         return "Hello Git Hub .....";
     }
+
+    @GetMapping
+    public String sayAsk)() {
+    return "are you looking for job change  yes i am looking for job change";
+    }
 }
