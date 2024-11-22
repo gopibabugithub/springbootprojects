@@ -20,4 +20,9 @@ public class HelloGopiController {
     public String gopi() {
         return "how are you";
     }
+
+    @GetMapping
+    public  String employee() {
+        return "bank holder name suresh";
+    }
 }
