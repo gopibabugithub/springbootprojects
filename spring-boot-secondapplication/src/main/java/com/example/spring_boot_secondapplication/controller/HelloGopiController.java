@@ -22,12 +22,18 @@ public class HelloGopiController {
     }
 
     @GetMapping
-    public  String employee() {
+    public String employee() {
         return "bank holder name suresh";
     }
+
     @GetMapping
     public String vijay() {
         return "getName";
     }
 
+    @GetMapping("/api/vijay")
+    public String vijayBaradwaj() {
+        return "getName";
+
+    }
 }
